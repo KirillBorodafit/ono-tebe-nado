@@ -75,10 +75,10 @@
   letter-spacing: 31px;
   text-transform: uppercase;
   color: #fff;
-  position: absolute;
+  position: relative;
   z-index: 1;
-  margin-top: 163px;
-  margin-left: 26px;
+  top: 162px;
+  left: 25px;
 }
 
 .aligned-text {
@@ -105,11 +105,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
+  position: relative;
   z-index: 1;
-  margin-top: 654px;
-  margin-left: 53px;
-  gap: 78px;
+  top: 286px;
+  left: 14px;
 }
 
 .cover__description-text {
@@ -199,7 +198,6 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #fff;
-  position: relative;
   z-index: 1;
   padding: 51px 40px 0;
 }
