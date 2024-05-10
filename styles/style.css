@@ -68,16 +68,19 @@
 }
 
 .cover__title {
-  display: flex;
-  flex-direction: column;
-  font-size: 100px; 
-  line-height: 123%; 
-  letter-spacing: 31px; 
-  text-transform: uppercase; 
-  color: #fff; 
-  position: relative; 
-  z-index: 1; 
- padding: 161px 50px 125px;
+  padding: 161px 50px 125px;
+  font-size: 100px;
+  line-height: 123%;
+  letter-spacing: 31px;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+ 
+}
+
+.aligned-text {
+  display: block;
 }
 
 .aligned-text_center {
