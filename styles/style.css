@@ -50,6 +50,8 @@
 }
 
 .cover {
+  display: flex;
+  flex-direction: column;
   position: relative;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
@@ -68,18 +70,15 @@
 }
 
 .cover__title {
-  padding: 161px 50px 125px;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 50px 120px;
   font-size: 100px;
-  line-height: 123%;
-  letter-spacing: 31px;
+  line-height: 125px;
+  letter-spacing: 30px;
   text-transform: uppercase;
   color: #fff;
-  position: relative;
   z-index: 1;
-}
-
-.aligned-text {
-  display: block;
 }
 
 .aligned-text_center {
@@ -91,7 +90,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 58px;
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
@@ -101,7 +100,6 @@
 .cover__description {
   display: flex;
   align-items: center;
-  position: relative;
   z-index: 1;
   padding-left: 77px;
   gap: 78px;
